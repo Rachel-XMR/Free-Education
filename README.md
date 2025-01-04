@@ -149,7 +149,7 @@ The ability to reply to comments is displayed by clicking on the reply button, w
 
 Designed to generate different displays for hovering situations to indicate to the user that the position is meaningful.
 
-# [**System**]() Design
+# System Design
 
 All pages are reachable by clicking. The header is fixed at the top and contains a navigation to help users use the site.All pages are linked together in the form of links, due to the existence of the login situation verification, if the current page is only logged in to access the situation, when the cookie is invalid, it will automatically jump to the login interface, any situation can be accessed to the page will not be affected.The automatic jumps are implemented with the help of JavaScript. For aesthetic reasons, many link jumps are implemented with the help of JavaScript.
 
