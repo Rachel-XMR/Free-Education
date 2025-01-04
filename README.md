@@ -8,10 +8,9 @@ This project has developed a free education platform. It provides equal access t
 
 
 
-<div>
-  <source srcset="https://drive.google.com/file/d/1GKrVIH2CJel7WitmcGG-NYPE_9cH5E0J/preview" />
-  <iframe src="https://drive.google.com/file/d/1GKrVIH2CJel7WitmcGG-NYPE_9cH5E0J/preview" width="640" height="480" allow="autoplay"></iframe>
-</div>
+```HTML
+<iframe src="https://drive.google.com/file/d/1GKrVIH2CJel7WitmcGG-NYPE_9cH5E0J/preview" width="640" height="480" allow="autoplay"></iframe>
+```
 
 # User roles definition
 
