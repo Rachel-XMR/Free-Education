@@ -141,6 +141,50 @@ After discussion, that option does make more sense and is more in line with user
 
 # User Interface Design, System Design and Implementation
 
+The entire design work is done through Figma.
+
+At the beginning of the design process, different screens and users were taken into account, and colours that would cause ambiguity for people with red-green colour blindness were avoided in order to take better care of vulnerable groups (Ivan Tuchkov, 22 August 2018). In order to make the user more visually comfortable and less fatigued, the colours chosen are not too contrasting.
+
+In addition to this, screen adaptation has been taken into account, with targeted interfaces designed for both mobile phones and computers. The most common way to turn the header into a dropdown box is used (mollie, 28 April 2021). The search bar, login user page, and other commonly used items are designed in the header.
+
+
+![1736023909979](image/README/1736023909979.png)
+
+Rounded corners have been added to all square shapes during the design process to make them look
+more comfortable (Andy Hertzfeld, May 1981). Undeniably, the design was initially inspired by Apple products. SDG4 related icons have also been added to the project to highlight the purpose of this project.
+
+![1736024057251](image/README/1736024057251.png)
+
+Considering that when many users participate in the discussion, there will be a lot of comments, it is designed to hover at the bottom of the screen when it doesn't reach the bottom, and when the page slides to the bottom, the comment function is at the bottom of the comments.
+
+![1736024132989](image/README/1736024132989.png)
+
+
+The ability to reply to comments is displayed by clicking on the reply button, which is also displayed at the bottom, making it easy for the user to output nor obscure the view.
+
+Designed to generate different displays for hovering situations to indicate to the user that the position is meaningful.
+
+
+# [**System**]() Design
+
+All pages are reachable by clicking. The header is fixed at the top and contains a navigation to help users use the site.All pages are linked together in the form of links, due to the existence of the login situation verification, if the current page is only logged in to access the situation, when the cookie is invalid, it will automatically jump to the login interface, any situation can be accessed to the page will not be affected.The automatic jumps are implemented with the help of JavaScript. For aesthetic reasons, many link jumps are implemented with the help of JavaScript.
+
+The UI design is implemented through Style.css and Script.js, and the system program content is implemented through php and submit.js.
+
+In the external personnel testing session, there is a questionnaire for the user experience, and after the statistics, the users are more satisfied with the interface and the system experience. The user evaluation of the system is simple and easy to operate.
+
+
+# [**Verification, Validation and Testing**]()
+
+Two types of testing were experienced during development: one for a single feature and the other for the entire project. Which is for a single function, is to ensure that the function can run properly, and the output is as expected, without generating errors and faults.Another type of holistic testing was done by finding outsiders and requesting them to test the site as QA and collecting their feedback.
+
+Testing during the development process provides significant help in refining the functionality and facilitates an iteration. For example, during testing there was user feedback about problems with the comment feature, and the current version of the comment feature is in a modified form based on that feedback.On top of that there was another issue that was tested that came from an unknown user. This was due to the fact that the site was injected with information from another site on a random occasion and caused the content to be overwritten. This led to the discovery that the development of the anti-injection feature was not comprehensive enough.After improving
+the anti-injection feature and testing it by simulating a previous attack, it was confirmed that this feature has been refined.
+
+Non-computer people were specifically sought out in the quest for testing, in the hope of better simulating what a random user would use. This is done at the end of a development lifecycle. As, this is the process of collecting suggestions for improvements to the project requirements while already ensuring that the current functionality will work. It can provide the requirements for the next iteration, the features that need to be improved or
+added.
+
+
 
 
 
