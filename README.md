@@ -3,13 +3,6 @@
 This project has developed a free education platform. It provides equal access to educational resources in line with the aims of SDG 4 ---- to reduce inequality in access to education. This project was independently developed by Murui Xiao. Languages used: PHP, SQL, JavaScript, CSS. Project skills: UX design, UI design, software testing.
 
 
-## demonstration
-
-<video width="320" height="240" controls>
-    <source src="movie.mp4" type="video/mp4">
-</video>
-
-
 
 # User roles definition
 
