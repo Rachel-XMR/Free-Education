@@ -4,7 +4,7 @@ This project has developed a free education platform. It provides equal access t
 
 ## demonstration
 
-[![Video Title](https://drive.google.com/file/d/1GKrVIH2CJel7WitmcGG-NYPE_9cH5E0J/preview)](https://drive.google.com/file/d/1GKrVIH2CJel7WitmcGG-NYPE_9cH5E0J/preview)
+[![demonstration](https://github.com/Rachel-XMR/Free-Education/blob/main/image/README/2025-01-04_22-12-50.png)](https://drive.google.com/file/d/1GKrVIH2CJel7WitmcGG-NYPE_9cH5E0J/preview)
 
 <iframe src="https://drive.google.com/file/d/1GKrVIH2CJel7WitmcGG-NYPE_9cH5E0J/preview" width="640" height="480" allow="autoplay"></iframe>
 
