@@ -10,15 +10,6 @@ This project has developed a free education platform. It provides equal access t
 <video src="https://drive.google.com/file/d/1GKrVIH2CJel7WitmcGG-NYPE_9cH5E0J/preview" controls="controls" width="500" height="300"></video>
 
 
-<video width="320" height="240" controls>
-    <source src="https://drive.google.com/file/d/1GKrVIH2CJel7WitmcGG-NYPE_9cH5E0J/view?usp=drive_link" type="video/mp4">
-</video>
-
-
-https://drive.google.com/file/d/1GKrVIH2CJel7WitmcGG-NYPE_9cH5E0J/view?usp=drive_link
-```HTML
-<iframe src="https://drive.google.com/file/d/1GKrVIH2CJel7WitmcGG-NYPE_9cH5E0J/preview" width="640" height="480" allow="autoplay"></iframe>
-```
 
 # User roles definition
 
