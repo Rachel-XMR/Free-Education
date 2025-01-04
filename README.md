@@ -110,6 +110,39 @@ Bookmark the user's favourite content. Convenient for users to view it twice.
 
 # [**Deployment and Hosting**]()
 
+As the project is a website, all the data needs to be uploaded to the client, uploading the code to the server via FTP and configuring the database via phpMyAdmin.
+
+# [**Security Architecture**]()
+
+Combine the login signup function developed by safety design with a database to verify the user's information to log in.
+
+In addition to this, build anti-injection code to prevent the database from being compromised. The project does this by transferring symbols\ and htmlspecialchars(adslashes($value), ENT_QUOTES, 'UTF-8') function.
+
+Prevents input from being a block of code like  `<a href="education.com">`education.com `</a>`, which results in the output being compiled when it is output.
+
+Preventing database internals from being exposed by quotes by using “\”
+
+![1736023550829](image/README/1736023550829.png)
+
+
+# Testing
+
+During the development of the project, the features were tested for every successful feature developed, and after completing the development tasks, people were sought out to act as QA to test the entire website, and their feedback was collected, and changes were made in iterating on the locations where the project didn't quite live up to expectations.
+
+
+# [**Maintenance and Iteration**]()
+
+After some tests and demonstrations, we listened to the suggestions given by the users to modify and improve some requirements of the project.
+
+For example, the comments feature started out as just being able to send a comment, but at the suggestion of mentor John, it was changed so that comments that could be replied to were placed underneath the content of the resource. This makes each resource a discussion topic and allows users to better focus on discussing that one topic.
+
+After discussion, that option does make more sense and is more in line with user behaviour. So an iteration was made to address the commenting feature.
+
+
+# User Interface Design, System Design and Implementation
+
+
+
 
 
 
