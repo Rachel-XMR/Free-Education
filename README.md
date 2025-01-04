@@ -1,18 +1,14 @@
 # Free-Education
 
-
 This project has developed a free education platform. It provides equal access to educational resources in line with the aims of SDG 4 ---- to reduce inequality in access to education. This project was independently developed by Murui Xiao. Languages used: PHP, SQL, JavaScript, CSS. Project skills: UX design, UI design, software testing.
-
 
 # User roles definition
 
 ![1736021446937](image/README/1736021446937.png)
 
-
 ## [**Potential User Persona Profiles**]()
 
 ![1736021677035](image/README/1736021677035.png)
-
 
 After the interview, the user profiles were categorised into four groups:
 
@@ -23,16 +19,13 @@ After the interview, the user profiles were categorised into four groups:
 - Volunteers - whose main purpose is to provide educational resources to remote areas and schools or to provide assistance to people in need. The main needs of this group are to upload and manage resources and to give help to those who need it.
 - Administrators - assist in managing the site's users, user behaviour and resources.The main needs of this group should be to manage resources, users and reviews.
 
-
 # Database Design
 
 ER design: Draw an ER relationship diagram based on the requirements.
 
 ![1736021790225](image/README/1736021790225.png)
 
-
 ![1736021842708](image/README/1736021842708.png)
-
 
 # Components and Modules
 
@@ -42,9 +35,7 @@ The development is divided into three modules: login-signup, Content, and admini
 
 Most of the functionality is concentrated in the content module. Search function, upload function, admin function, comment function, reply to comment function. Involved pages modules, student, teacher creator, user, bookmark, news and most importantly content page. Because the Content page is the page that displays the content of each resource, and free access to educational resources is the core goal of the project.
 
-
 ## Details of every function
-
 
 ### Login
 
@@ -107,7 +98,6 @@ Upload a picture to change the user's avatar and change other information about 
 
 Bookmark the user's favourite content. Convenient for users to view it twice.
 
-
 # [**Deployment and Hosting**]()
 
 As the project is a website, all the data needs to be uploaded to the client, uploading the code to the server via FTP and configuring the database via phpMyAdmin.
@@ -124,11 +114,9 @@ Preventing database internals from being exposed by quotes by using “\”
 
 ![1736023550829](image/README/1736023550829.png)
 
-
 # Testing
 
 During the development of the project, the features were tested for every successful feature developed, and after completing the development tasks, people were sought out to act as QA to test the entire website, and their feedback was collected, and changes were made in iterating on the locations where the project didn't quite live up to expectations.
-
 
 # [**Maintenance and Iteration**]()
 
@@ -138,15 +126,13 @@ For example, the comments feature started out as just being able to send a comme
 
 After discussion, that option does make more sense and is more in line with user behaviour. So an iteration was made to address the commenting feature.
 
-
 # User Interface Design, System Design and Implementation
 
-The entire design work is done through Figma.
+The entire design work is done through Figma. [LINK TO SEE](https://www.figma.com/design/fGV63OkEJrzIIqDPy734f6/CIT-project?node-id=0-1&p=f&t=0Shseqx916EV3hIu-0)
 
 At the beginning of the design process, different screens and users were taken into account, and colours that would cause ambiguity for people with red-green colour blindness were avoided in order to take better care of vulnerable groups (Ivan Tuchkov, 22 August 2018). In order to make the user more visually comfortable and less fatigued, the colours chosen are not too contrasting.
 
 In addition to this, screen adaptation has been taken into account, with targeted interfaces designed for both mobile phones and computers. The most common way to turn the header into a dropdown box is used (mollie, 28 April 2021). The search bar, login user page, and other commonly used items are designed in the header.
-
 
 ![1736023909979](image/README/1736023909979.png)
 
@@ -159,11 +145,9 @@ Considering that when many users participate in the discussion, there will be a 
 
 ![1736024132989](image/README/1736024132989.png)
 
-
 The ability to reply to comments is displayed by clicking on the reply button, which is also displayed at the bottom, making it easy for the user to output nor obscure the view.
 
 Designed to generate different displays for hovering situations to indicate to the user that the position is meaningful.
-
 
 # [**System**]() Design
 
@@ -172,7 +156,6 @@ All pages are reachable by clicking. The header is fixed at the top and contains
 The UI design is implemented through Style.css and Script.js, and the system program content is implemented through php and submit.js.
 
 In the external personnel testing session, there is a questionnaire for the user experience, and after the statistics, the users are more satisfied with the interface and the system experience. The user evaluation of the system is simple and easy to operate.
-
 
 # [**Verification, Validation and Testing**]()
 
@@ -184,16 +167,6 @@ the anti-injection feature and testing it by simulating a previous attack, it wa
 Non-computer people were specifically sought out in the quest for testing, in the hope of better simulating what a random user would use. This is done at the end of a development lifecycle. As, this is the process of collecting suggestions for improvements to the project requirements while already ensuring that the current functionality will work. It can provide the requirements for the next iteration, the features that need to be improved or
 added.
 
-
-
-
-
-
-
-
-
-
-
 ---
 
 [**Acknowledgments**]()
@@ -201,9 +174,6 @@ added.
 I would like to express my deepest appreciation to my supervisor Mr. John Busch for his guidance, thoughtful comments, and recommendations throughout the preparation and completion of this project including design for the Database, UI design, UX design, and web development, for his encouragement and patience.
 
 I am also grateful to the people who were so generous with their time in completing the questionnaire surveys which were a great help in designing the user experience: Yu Qian, Hansen Wei, Noria, Jianhong Du. Further, I would like to thank the Quality assurance: Nicholas Ladd, Hansen Wei, Yidi Peng, Yuqing Gao, Mian Sun, and Jianhong Du for testing the website and providing feedback.
-
-
-
 
 ---
 
