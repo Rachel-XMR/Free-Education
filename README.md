@@ -68,7 +68,7 @@ Reset password by Email and username. Test to see if you can successfully change
 
 Search by keyword to find out the RESOURCE of related content on the module page. Test to see if you can search for relevant content, and try with symbols like "" to see if you get an error.
 
-![1736022801143](https://file+.vscode-resource.vscode-cdn.net/d%3A/Documents/GitHub/Free-Education/image/README/1736022801143.png)
+![1736023327735](image/README/1736023327735.png)
 
 ### Sort by selector
 
