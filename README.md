@@ -6,7 +6,7 @@ This project has developed a free education platform. It provides equal access t
 
 ![1736021446937](image/README/1736021446937.png)
 
-## [**Potential User Persona Profiles**]()
+## Potential User Persona Profiles
 
 ![1736021677035](image/README/1736021677035.png)
 
@@ -98,11 +98,11 @@ Upload a picture to change the user's avatar and change other information about 
 
 Bookmark the user's favourite content. Convenient for users to view it twice.
 
-# [**Deployment and Hosting**]()
+# Deployment and Hosting
 
 As the project is a website, all the data needs to be uploaded to the client, uploading the code to the server via FTP and configuring the database via phpMyAdmin.
 
-# [**Security Architecture**]()
+# Security Architecture
 
 Combine the login signup function developed by safety design with a database to verify the user's information to log in.
 
@@ -118,7 +118,7 @@ Preventing database internals from being exposed by quotes by using “\”
 
 During the development of the project, the features were tested for every successful feature developed, and after completing the development tasks, people were sought out to act as QA to test the entire website, and their feedback was collected, and changes were made in iterating on the locations where the project didn't quite live up to expectations.
 
-# [**Maintenance and Iteration**]()
+# Maintenance and Iteration
 
 After some tests and demonstrations, we listened to the suggestions given by the users to modify and improve some requirements of the project.
 
@@ -157,7 +157,7 @@ The UI design is implemented through Style.css and Script.js, and the system pro
 
 In the external personnel testing session, there is a questionnaire for the user experience, and after the statistics, the users are more satisfied with the interface and the system experience. The user evaluation of the system is simple and easy to operate.
 
-# [**Verification, Validation and Testing**]()
+# Verification, Validation and Testing
 
 Two types of testing were experienced during development: one for a single feature and the other for the entire project. Which is for a single function, is to ensure that the function can run properly, and the output is as expected, without generating errors and faults.Another type of holistic testing was done by finding outsiders and requesting them to test the site as QA and collecting their feedback.
 
@@ -166,6 +166,13 @@ the anti-injection feature and testing it by simulating a previous attack, it wa
 
 Non-computer people were specifically sought out in the quest for testing, in the hope of better simulating what a random user would use. This is done at the end of a development lifecycle. As, this is the process of collecting suggestions for improvements to the project requirements while already ensuring that the current functionality will work. It can provide the requirements for the next iteration, the features that need to be improved or
 added.
+
+
+
+
+
+
+
 
 ---
 
