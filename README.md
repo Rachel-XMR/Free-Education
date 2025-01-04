@@ -4,7 +4,6 @@ This project has developed a free education platform. It provides equal access t
 
 ## demonstration
 
-<source src="https://drive.google.com/uc?export=download&id=Extracted ID Here" type='video/webm'/>
 
 <iframe src="https://drive.google.com/file/d/1GKrVIH2CJel7WitmcGG-NYPE_9cH5E0J/preview" width="640" height="480" allow="autoplay"></iframe>
 
