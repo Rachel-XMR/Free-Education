@@ -184,7 +184,7 @@ added.
 
 ---
 
-[**Acknowledgments**]()
+Acknowledgments
 
 I would like to express my deepest appreciation to my supervisor Mr. John Busch for his guidance, thoughtful comments, and recommendations throughout the preparation and completion of this project including design for the Database, UI design, UX design, and web development, for his encouragement and patience.
 
